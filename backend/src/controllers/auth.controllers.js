@@ -3,6 +3,9 @@ const jwt = require('jsonwebtoken');
 
 const authContext=require("../db/context/auth.context")
 const blacklistContext=require("../db/context/blacklist.context")
+
+
+
 const registerController=async(req,res)=>{
     const {name,email,password,role='user'}=req.body
     try {
