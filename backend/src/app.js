@@ -16,7 +16,7 @@ const options={
         },
         servers:[
             {
-                url:"http://localhost:8080"
+                url:"https://user-manangement.onrender.com"
             }
         ]
     },

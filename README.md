@@ -38,7 +38,7 @@ Our user management system is a streamlined platform where individuals can creat
 
 ## API Endpoints
 
--**BaseUrl** `http://localhost:8080/api/v1`
+-**BaseUrl** `https://user-manangement.onrender.com/api/v1`
 
 ### Auth Routes
 
@@ -138,7 +138,7 @@ Our user management system is a streamlined platform where individuals can creat
 
 ## Deployed Links
 
-- **Backend:** [https://flix-rgt6.onrender.com]
+- **Backend:** [https://user-manangement.onrender.com]
 - **Frontend:** [https://prop-ftx-gwoy.vercel.app/]
 
 ## Contributing
