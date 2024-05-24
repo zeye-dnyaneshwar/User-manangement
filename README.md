@@ -31,6 +31,9 @@ Our user management system is a streamlined platform where individuals can creat
 2. Install dependencies: `npm install`
 3. Start the frontend server: `npm run dev`
 
+### For Swagger Documentation
+- Link:- `https://user-manangement.onrender.com/api/v1/docs/`
+
 ## Tech Stack
 - **Frontend:** ReactJS 
 - **Backend:** NodeJs, Express, MongoDB, JSON Web Token (JWT),bcrypt ,GitHub auth.
