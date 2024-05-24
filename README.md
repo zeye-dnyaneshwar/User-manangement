@@ -15,7 +15,7 @@ Our user management system is a streamlined platform where individuals can creat
 ## Installation
 
 ### For Backend Server
-1. Clone the repository: `git clone https://github.com/devdnyaneshpatil/voosh-assignment.git`
+1. Clone the repository: `git clone https://github.com/zeye-dnyaneshwar/User-manangement.git`
 2. Navigate to the project directory: `cd backend`
 3. Install dependencies: `npm install`
 4. Create a `.env` file.
