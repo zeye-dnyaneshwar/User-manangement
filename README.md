@@ -142,7 +142,7 @@ Our user management system is a streamlined platform where individuals can creat
 ## Deployed Links
 
 - **Backend:** [https://user-manangement.onrender.com]
-- **Frontend:** [https://prop-ftx-gwoy.vercel.app/]
+- **Frontend:** [https://user-manangement-mu.vercel.app/]
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
