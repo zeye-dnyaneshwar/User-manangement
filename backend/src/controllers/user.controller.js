@@ -47,7 +47,7 @@ const getOneUserController=async(req,res)=>{
             return res.status(400).json({msg:"User Not Found"})
         }
         if(user.accountType=="Private"){
-            if(req.role!=="admin"||req.userId!=id){
+            if(req.role!=="admin"&&req.userId!=id){
                 return res.status(401).json({msg:"Not authorized"})
             }
         }

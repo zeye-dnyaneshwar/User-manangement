@@ -4,14 +4,14 @@ const jwt = require('jsonwebtoken');
 const authContext=require("../db/context/auth.context")
 const blacklistContext=require("../db/context/blacklist.context")
 const registerController=async(req,res)=>{
-    const {name,email,password}=req.body
+    const {name,email,password,role='user'}=req.body
     try {
        const isUserAvailable=await authContext.getUserByEmail(email)
        if(isUserAvailable){
         return res.status(409).json({msg:"User Already Exist"})
        }
        const hashedPassword=await bcrypt.hash(password,2)
-       const newUser=await authContext.createNewUser({name,email,password:hashedPassword})
+       const newUser=await authContext.createNewUser({name,email,password:hashedPassword,role})
        const token = jwt.sign({ userId: newUser._id,userRole:newUser.role  }, process.env.JWT_SECRET_KEY);
        return res.status(201).json({msg:"User Created Successfully",user:{
         _id:newUser._id,
@@ -48,6 +48,7 @@ const loginController=async(req,res)=>{
 }
 
 const logoutController=async(req,res)=>{
+    const {token}=req.body
     try {
         const newBlacklistToken=await blacklistContext.addBlacklistToken(token)
         return res.status(200).json({msg:"You have Logged out"})

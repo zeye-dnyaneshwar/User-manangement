@@ -15,7 +15,7 @@ const getUserById=async(id)=>{
 }
 
 const getAllUsers=async(filter)=>{
-    const users=await User.findAll(filter)
+    const users=await User.find(filter)
     return users
 }
 module.exports={getUserByEmail,updateUser,getUserById,getAllUsers}

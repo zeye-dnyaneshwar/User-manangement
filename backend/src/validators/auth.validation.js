@@ -36,7 +36,8 @@ const registerSchema = Joi.object({
             'string.max': 'Password should have at most 30 characters',
             'string.pattern.base': 'Password must include at least one uppercase letter, one lowercase letter, one number, and one special character',
             'any.required': 'Password is a required field'
-        })
+        }),
+    role:Joi.string()
 });
 
 const loginSchema=Joi.object({
