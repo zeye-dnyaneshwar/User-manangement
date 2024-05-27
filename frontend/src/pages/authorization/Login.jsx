@@ -20,7 +20,7 @@ function Login() {
     setLoading(true);
     console.log(formData);
     try {
-      const response = await axios.post('https://user-manangement-1.onrender.com/api/v1/auth/login', formData);
+      const response = await axios.post('https://user-manangement-2.onrender.com/api/v1/auth/login', formData);
       console.log(response.data)
       localStorage.removeItem("accessToken")
       localStorage.removeItem("email")

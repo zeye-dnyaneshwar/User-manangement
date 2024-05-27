@@ -8,7 +8,7 @@ function HomePage() {
 
   const getAccessToken = async (code) => {
     try {
-      const response = await axios.get(`https://user-manangement-1.onrender.com/api/v1/git/accessToken?code=${code}`);
+      const response = await axios.get(`https://user-manangement-2.onrender.com/api/v1/git/accessToken?code=${code}`);
       console.log(response.data.msg.access_token, response.data.email);
       localStorage.setItem("email", response.data.email);
       const accessToken = response.data.msg.access_token;
@@ -22,7 +22,7 @@ function HomePage() {
 
   const getUserData = async (accessToken, email) => {
     try {
-      const response = await axios.get(`https://user-manangement-1.onrender.com/api/v1/git/getUserData?email=${email}`, {
+      const response = await axios.get(`https://user-manangement-2.onrender.com/api/v1/git/getUserData?email=${email}`, {
         headers: {
           accessToken: accessToken,
           'Content-Type': 'application/json',
@@ -38,7 +38,7 @@ function HomePage() {
 
   const getUserDataById = async (token, userId) => {
     try {
-      const response = await axios.get(`https://user-manangement-1.onrender.com/api/v1/users/${userId}`, {
+      const response = await axios.get(`https://user-manangement-2.onrender.com/api/v1/users/${userId}`, {
         headers: {
           Authorization: `Bearer ${token}`,
           'Content-Type': 'application/json',

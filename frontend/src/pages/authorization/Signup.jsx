@@ -18,7 +18,7 @@ function Signup() {
     setLoading(true);
     console.log(formData);
     try {
-      const response = await axios.post('https://user-manangement-1.onrender.com/api/v1/auth/register', formData);
+      const response = await axios.post('https://user-manangement-2.onrender.com/api/v1/auth/register', formData);
       localStorage.removeItem("accessToken")
       localStorage.removeItem("email")
       localStorage.setItem("token", response.data.user.token);

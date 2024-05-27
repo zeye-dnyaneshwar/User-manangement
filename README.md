@@ -145,7 +145,7 @@ Our user management system is a streamlined platform where individuals can creat
 email:- omkar@gmail.com
 password: Password@123
 
-- **Backend:** [https://user-manangement-1.onrender.com]
+- **Backend:** [https://user-manangement-2.onrender.com]
 - **Frontend:** [https://user-manangement-mu.vercel.app/]
 
 ## Contributing
