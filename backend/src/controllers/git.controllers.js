@@ -52,6 +52,10 @@ const getUserDataController=async(req,res)=>{
       },
      });
      console.log(userData.data)
+     const isUserAvailable=await authContext.getUserByEmail(email)
+     if(isUserAvailable){
+      return res.status(200).json({msg:"Login Successfull",newUser:isUserAvailable})
+     }
      const userObj={
         name:userData.data.login,
         email,

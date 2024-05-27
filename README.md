@@ -141,7 +141,11 @@ Our user management system is a streamlined platform where individuals can creat
 
 ## Deployed Links
 
-- **Backend:** [https://user-manangement.onrender.com]
+## demo admin credentials
+email:- omkar@gmail.com
+password: Password@123
+
+- **Backend:** [https://user-manangement-1.onrender.com]
 - **Frontend:** [https://user-manangement-mu.vercel.app/]
 
 ## Contributing
