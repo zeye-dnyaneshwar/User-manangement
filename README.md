@@ -32,7 +32,7 @@ Our user management system is a streamlined platform where individuals can creat
 3. Start the frontend server: `npm run dev`
 
 ### For Swagger Documentation
-- Link:- `https://user-manangement.onrender.com/api/v1/docs/`
+- Link:- `https://user-manangement-2.onrender.com/api/v1/docs/`
 
 ## Tech Stack
 - **Frontend:** ReactJS 
@@ -41,7 +41,7 @@ Our user management system is a streamlined platform where individuals can creat
 
 ## API Endpoints
 
--**BaseUrl** `https://user-manangement.onrender.com/api/v1`
+-**BaseUrl** `https://user-manangement-2.onrender.com/api/v1`
 
 ### Auth Routes
 

@@ -16,7 +16,7 @@ const options={
         },
         servers:[
             {
-                url:"https://user-manangement.onrender.com"
+                url:"https://user-manangement-2.onrender.com"
             }
         ]
     },
