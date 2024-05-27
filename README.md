@@ -146,7 +146,7 @@ email:- omkar@gmail.com
 password: Password@123
 
 - **Backend:** [https://user-manangement-2.onrender.com]
-- **Frontend:** [https://user-manangement-mu.vercel.app/]
+- **Frontend:** [https://user-manangement-ssqv.vercel.app/]
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
